@@ -1,0 +1,97 @@
+ This is some default styling for the exercise */
+*{
+	box-sizing: border-box;
+}
+
+[class^='grid-col-'] {
+	float:left;
+}
+
+/*.grid {
+  text-align: center;
+}*/
+
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*used code from summer '16 cirriculum because i could not find it in our semester https://iat339.andrewh.ca/2016/summer/*/
+
+
+.grid-col-1of5 {
+	width: 20%;
+}
+
+.grid-col-1of3 {
+  width: 33%;
+}
+
+.grid-col-1of2 {
+  width: 50%;
+}
+
+@media (max-width: 60em) {
+	.grid-col-1of5 {
+		width: 100%;
+	}
+
+  /*http://pxtoem.com/*/
+
+  .grid-col-1of3 {
+    width:100%;
+  }
+
+  .grid-col-1of2 {
+    width:100%;
+  }
+}
+.box {
+  height: 120px;
+}
+
+.main-nav {
+  height:50px;
+}
+
+
+.screen {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.box:nth-of-type(odd) {
+  border: 2px solid #e6e6e6;
+}
+
+.box:nth-of-type(even) {
+  border: 2px solid #00caf5;
+}
+
+.colors-black {
+  background-color: black;
+  border: 2px solid #000000;
+  height: 120px;
+  color: white;
+}
+
+.colors-white {
+  background-color: white;
+  border: 2px solid #000000;
+  height: 120px;
+  color: black;
+}
+
+.colors-blue {
+  background-color: #00caf5;
+  border: 2px solid #00caf5;
+  height: 120px;
+  color: white;
+}
+
+/*.structure .box:nth-of-type(odd) {
+  border: 3px solid #c3c3c3;
+  color: #c3c3c3;
+}

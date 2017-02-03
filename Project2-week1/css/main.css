@@ -1,0 +1,131 @@
+body {
+	font-family: "Calibre", Verdana, sans-serif;
+	/*referred to Lecture 2 Completed Code*/
+	padding: 2em;
+}
+
+section:not([id]) {
+	/*line code borrowed from template sample main.css code*/
+	border-top: 1px solid #333;
+	padding-bottom: 2em;
+}
+
+/*nav {
+	display: block;
+}*/	
+
+code {
+	font-family: "Calibre", Verdana, sans-serif;
+	/*padding-top: .5rem;
+	padding-bottom: .5rem;*/
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background-color: #e6e6e6
+	/*max-width:80%;*/
+}
+
+a {
+	font-style:bold;
+	padding-bottom: 1rem;
+}
+
+img {
+	max-width: 100%;
+	/*padding-bottom: 1rem;*/
+}
+
+p {
+	max-width: 80%;
+}
+
+h1 {
+	font-size: 1.8rem;
+}
+
+li {
+	padding-bottom: .5rem;
+}
+
+.form-input {
+	padding: .5rem;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid #00caf5;
+}
+
+/*learned from http://www.w3schools.com/css/css_form.asp*/
+
+.form-label {
+	padding-right: .5rem;
+}
+
+/*learned from http://www.w3schools.com/css/css_form.asp*/
+
+.link-class {
+	color: #00caf5;
+}
+
+.button-class {
+	padding: .5rem;
+	text-decoration: none;
+	color: #000000;
+	border: 3px solid #000000;
+}
+.button-class:hover, .button-class:focus {
+	background-color: white;
+	color: #00caf5;
+	border: 3px solid #00caf5;
+}
+
+.button-class:active {
+	color: #000000;
+	border: 3px solid #000000;
+	background-color: #00caf5;
+}
+
+.code-background {
+	background-color: #e6e6e6;
+	padding: 1rem;
+}
+
+.product {
+	display: flex;
+}
+.product-price {
+	color: #00caf5;
+}
+.product-description {
+	padding-left: 1rem;
+}
+
+.grid {
+	text-align: center;
+}
+
+.structure {
+	/*display: flex;*/
+/*	padding-left: 6rem;
+	padding-right: 6rem;*/
+	text-align: center;
+/*	border-top: 0px;
+*/
+	padding-bottom: 10rem;
+}
+
+.colors {
+	text-align: center;
+	/*padding-bottom: none;*/
+	/*display: inline-flex;*/
+}
+
+
+
+.layout {
+	padding-left: 10rem;
+	padding-right: 10rem;
+}
+
+/*.break {
+	height: .5rem;
+}*/
