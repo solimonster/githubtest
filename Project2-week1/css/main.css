@@ -79,9 +79,9 @@ li {
 }
 
 .button-class:active {
-	color: #000000;
-	border: 3px solid #000000;
-	background-color: #00caf5;
+	color: #00caf5;
+	border: 3px solid #00caf5;
+	background-color: #FFEF49;
 }
 
 .code-background {
