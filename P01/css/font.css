@@ -1,0 +1,68 @@
+/*
+	3 Font-faces:
+	- Quicksand-Title: Quicksand-Bold
+		Title Text
+			for h1
+	- Quicksand-R: Quicksand-Regular
+		Subtitle Text
+			for h2
+	- Quicksand-L: Quicksand-Light
+		Content Text
+			for p, a
+*/
+
+
+/*font-face: Title Text
+for h1*/
+@font-face{
+	font-family: Quicksand-Title;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/quicksand-bold-webfont');
+	src: url('../fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+		 url('../fonts/quicksand-bold-webfont.woff2') format('woff2'), 
+		 url('../fonts/quicksand-bold-webfont.woff') format('woff'),
+		 url('../fonts/Quicksand-Bold.ttf') format('truetype');
+}
+
+/*font-face: SubTitle Text
+for h2*/
+@font-face {
+	font-family: 'Quicksand-SubTitle';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/quicksand-regular-webfont');
+	src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+		 url('../fonts/quicksand-regular-webfont.woff2') format('woff2'), 
+		 url('../fonts/quicksand-regular-webfont.woff') format('woff'),
+		 url('../fonts/Quicksand-Regular.ttf') format('truetype');
+}
+
+/*font-face: Content Text
+for p, a*/	
+@font-face{
+	font-family: Quicksand;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/quicksand-light-webfont');
+	src: url('../fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'), 
+		 url('../fonts/quicksand-light-webfont.woff2') format('woff2'), 
+		 url('../fonts/quicksand-light-webfont.woff') format('woff'),
+		 url('../fonts/Quicksand-Light.ttf') format('truetype');
+}
+
+p{
+	font-family: 'Quicksand', san-serif;
+}
+
+a{
+	font-family: 'Quicksand', san-serif;
+}
+
+h1{
+	font-family: 'Quicksand-Title', san-serif;
+}
+
+h2{
+	font-family: 'Quicksand-SubTitle', sans-serif;
+}
