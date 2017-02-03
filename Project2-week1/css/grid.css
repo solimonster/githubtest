@@ -24,6 +24,10 @@
 	width: 20%;
 }
 
+.grid-col-1of4 {
+    width: 25%;
+}
+
 .grid-col-1of3 {
   width: 33%;
 }
@@ -39,6 +43,10 @@
 
   /*http://pxtoem.com/*/
 
+  .grid-col-1of4 {
+    width: 100%;
+  }
+
   .grid-col-1of3 {
     width:100%;
   }
@@ -47,6 +55,7 @@
     width:100%;
   }
 }
+
 .box {
   height: 120px;
 }
@@ -89,6 +98,13 @@
   border: 2px solid #00caf5;
   height: 120px;
   color: white;
+}
+
+.colors-yellow {
+  background-color: #FFEF49;
+  border: 2px solid #FFEF49;
+  height: 120px;
+  color: black;
 }
 
 /*.structure .box:nth-of-type(odd) {
