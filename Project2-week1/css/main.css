@@ -4,11 +4,11 @@ body {
 	padding: 2em;
 }
 
-section:not([id]) {
-	/*line code borrowed from template sample main.css code*/
+/*line code borrowed from template sample main.css code*/
+/*section:not([id]) {
 	border-top: 1px solid #333;
 	padding-bottom: 2em;
-}
+}*/
 
 /*nav {
 	display: block;
@@ -158,3 +158,31 @@ li {
 	height:4rem;
 }
 
+.login-form{
+	margin:3em;
+}
+
+
+.main-cart
+{
+	position: absolute;
+	right:5em;
+}
+
+.main-account
+{
+	position: absolute;
+	right:10em;
+}
+
+.layout2-title-left{
+
+	/*Alicia: I'm aligning text to left to override the "default" center alignment from the grid.css
+			  We need to remove it. */
+	text-align: left;
+}
+
+.place-holder{
+	background-color: #EEEEEE;
+	padding: 500px;
+}
