@@ -36,6 +36,8 @@
   width: 50%;
 }
 
+.grid-col-3of4
+
 @media (max-width: 60em) {
 	.grid-col-1of5 {
 		width: 100%;
@@ -54,6 +56,11 @@
   .grid-col-1of2 {
     width:100%;
   }
+
+  .grid-col-3of4 {
+    width:100%;
+  }
+
 }
 
 .box {
@@ -107,7 +114,20 @@
   color: black;
 }
 
-/*.structure .box:nth-of-type(odd) {
-  border: 3px solid #c3c3c3;
-  color: #c3c3c3;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
