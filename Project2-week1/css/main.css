@@ -35,7 +35,7 @@ img {
 }
 
 p {
-	max-width: 80%;
+	/*max-width: 80%;*/
 }
 
 h1 {
@@ -129,3 +129,22 @@ li {
 /*.break {
 	height: .5rem;
 }*/
+
+/*layout-1 css*/
+
+.navigation-link {
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.navigation-link:hover, .navigation-link:focus {
+  background-color: white;
+  color: #00caf5;
+  border-bottom: 2px solid #00caf5;
+}
+
+.navigation-space {
+	height:4rem;
+}
+

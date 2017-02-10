@@ -1,10 +1,11 @@
  This is some default styling for the exercise */
-*{
-	box-sizing: border-box;
+*, *::after, *::before {
+  box-sizing: border-box;
 }
 
 [class^='grid-col-'] {
 	float:left;
+  padding: 0;
 }
 
 /*.grid {
@@ -26,6 +27,7 @@
 
 .grid-col-1of4 {
     width: 25%;
+
 }
 
 .grid-col-1of3 {
@@ -36,9 +38,12 @@
   width: 50%;
 }
 
-.grid-col-3of4
+.grid-col-3of4 {
+  width:75%;
+  /*padding-left:10rem;*/
+}
 
-@media (max-width: 60em) {
+@media (max-width: 40em) {
 	.grid-col-1of5 {
 		width: 100%;
 	}
@@ -59,6 +64,7 @@
 
   .grid-col-3of4 {
     width:100%;
+
   }
 
 }
@@ -116,18 +122,16 @@
 
 
 
+.navigation {
+  /*position:fixed;*/
+  /*top: 15rem;*/
+  text-align: center;
 
+  /*http://www.w3schools.com/cssref/pr_class_position.asp*/
+}
 
+.main {
+  height:3000px;
+  text-align: center;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
