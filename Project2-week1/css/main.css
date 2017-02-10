@@ -21,12 +21,18 @@ code {
 	padding-left: 1rem;
 	padding-right: 1rem;
 	background-color: #e6e6e6
-	/*max-width:80%;*/
+	max-width:80%;
 }
 
 a {
-	font-style:bold;
-	padding-bottom: 1rem;
+	font-weight:bold;
+	/*padding-top: 5rem;*/
+	text-decoration: none;
+	color: #000000;
+}
+
+.a:hover, .a:focus {
+	color: white;
 }
 
 img {
@@ -35,7 +41,7 @@ img {
 }
 
 p {
-	max-width: 80%;
+	/*max-width: 80%;*/
 }
 
 h1 {
@@ -129,3 +135,26 @@ li {
 /*.break {
 	height: .5rem;
 }*/
+
+/*layout-1 css*/
+
+.navigation-link {
+  text-decoration: none;
+  border-bottom: 2px solid #000000;
+  	padding-top:2rem;
+}
+
+.navigation-link:hover, .navigation-link:focus {
+  background-color: white;
+  border-bottom: 2px solid #00caf5;
+	padding-top:2rem;
+}
+
+.navigation-space {
+	height:4rem;
+}
+
+.main-space {
+	height:4rem;
+}
+

@@ -1,10 +1,11 @@
  This is some default styling for the exercise */
-*{
-	box-sizing: border-box;
+*, *::after, *::before {
+  box-sizing: border-box;
 }
 
 [class^='grid-col-'] {
 	float:left;
+  padding: 0;
 }
 
 /*.grid {
@@ -26,33 +27,40 @@
 
 .grid-col-1of4 {
     width: 25%;
+
 }
 
 .grid-col-1of3 {
   width: 33%;
 }
 
+.grid-col-1of6 {
+  width: 16%;
+}
+
 .grid-col-1of2 {
   width: 50%;
 }
 
-@media (max-width: 60em) {
-	.grid-col-1of5 {
-		width: 100%;
-	}
+.grid-col-3of4 {
+  width:75%;
+  /*padding-left:10rem;*/
+}
+
+.grid-col-1of8 {
+  width:12.5%;
+}
+
+.grid-col-2of3 {
+  width:66%;
+}
+
+@media (max-width: 40em) {
 
   /*http://pxtoem.com/*/
 
-  .grid-col-1of4 {
+  .grid-col-1of4, .grid-col-1of3, .grid-col-1of2, .grid-col-3of4,.grid-col-1of8, .grid-col-1of5, .grid-col-1of6 {
     width: 100%;
-  }
-
-  .grid-col-1of3 {
-    width:100%;
-  }
-
-  .grid-col-1of2 {
-    width:100%;
   }
 }
 
@@ -107,7 +115,18 @@
   color: black;
 }
 
-/*.structure .box:nth-of-type(odd) {
-  border: 3px solid #c3c3c3;
-  color: #c3c3c3;
+
+
+.navigation {
+  /*position:fixed;*/
+  /*top: 15rem;*/
+  text-align: center;
+
+  /*http://www.w3schools.com/cssref/pr_class_position.asp*/
+}
+
+.main {
+  height:1280px;
+  text-align: center;
+
 }
