@@ -90,6 +90,12 @@ li {
 	background-color: #FFEF49;
 }
 
+/*for button-class that goes inside a content box*/
+.intable{
+	display: inline-block;
+	margin: 1em;
+}
+
 .code-background {
 	background-color: #e6e6e6;
 	padding: 1rem;
@@ -182,7 +188,32 @@ li {
 	text-align: left;
 }
 
-.place-holder{
-	background-color: #EEEEEE;
-	padding: 500px;
+.content-full{
+	/*background-color: #EEEEEE;*/
+	border: 3px solid #000000;
+	text-align: left;
+	padding: 2em;
+	/*padding: 500px;*/
+}
+
+.content-50
+{
+	border: 3px solid #000000;
+	text-align: left;
+	margin-top: 1em;
+	margin-left:0.3em;
+	margin-right:0.3em;
+	padding: 1em;
+	width: 40%;
+	display:inline-block;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+.line-breaker
+{
+	border-top: 1px solid #333;
 }
