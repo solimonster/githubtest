@@ -121,6 +121,7 @@
   position:fixed;
   /*top: 15rem;*/
   text-align: center;
+  padding-right: 2em;
   /*background-color: #eaeaea;*/
 
   /*http://www.w3schools.com/cssref/pr_class_position.asp*/
@@ -129,6 +130,6 @@
 .main {
   height:1280px;
   text-align: center;
-  padding-left: 20rem;
+  padding-left: 30%;
 
 }
