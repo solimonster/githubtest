@@ -77,17 +77,17 @@ li {
 	padding: .5rem;
 	text-decoration: none;
 	color: #000000;
-	border: 3px solid #000000;
+	border-bottom: 3px solid #000000;
 }
 .button-class:hover, .button-class:focus {
 	background-color: white;
 	color: #00caf5;
-	border: 3px solid #00caf5;
+	border-bottom: 3px solid #00caf5;
 }
 
 .button-class:active {
 	color: #00caf5;
-	border: 3px solid #00caf5;
+	border-bottom: 3px solid #00caf5;
 	background-color: #FFEF49;
 }
 
@@ -151,13 +151,16 @@ li {
 
 .navigation-link {
   text-decoration: none;
-  border-bottom: 2px solid #000000;
-  	padding-top:2rem;
+  border-bottom: 3px solid #000000;
+  padding-top:2rem;
 }
 
 .navigation-link:hover, .navigation-link:focus {
   background-color: white;
-  border-bottom: 2px solid #00caf5;
+/*  border-top:none;
+  border-left:none;
+  border-right:none;*/
+  border-bottom: 3px solid #00caf5;
 	padding-top:2rem;
 }
 
@@ -231,4 +234,12 @@ li
 
 .seanspacer {
 	height: 2em;
+}
+
+.input {
+	padding: .5rem;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid #00caf5;
 }

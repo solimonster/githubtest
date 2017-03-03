@@ -62,6 +62,10 @@
   .grid-col-1of4, .grid-col-1of3, .grid-col-1of2, .grid-col-3of4,.grid-col-1of8, .grid-col-1of5, .grid-col-1of6 {
     width: 100%;
   }
+
+  .navigation {
+    width: 100%;
+  }
 }
 
 .box {
