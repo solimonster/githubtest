@@ -200,7 +200,9 @@ li {
 	padding: 2em;
 	/*padding: 500px;*/
 }
-
+.left-align {
+	text-align:left;
+}
 .content-50
 {
 	border: 3px solid #000000;
@@ -221,8 +223,12 @@ li
 .line-breaker
 {
 	border-top: 1px solid #333;
-}
+}	
 
 .spacer {
 	height: 5em;
+}
+
+.seanspacer {
+	height: 2em;
 }
