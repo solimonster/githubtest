@@ -41,6 +41,10 @@ img {
 	/*padding-bottom: 1rem;*/
 }
 
+img:hover, img:focus {
+	background-color: #00caf5;
+}
+
 p {
 	/*max-width: 80%;*/
 }
