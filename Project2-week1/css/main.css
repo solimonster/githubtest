@@ -41,8 +41,12 @@ img {
 	/*padding-bottom: 1rem;*/
 }
 
-img:hover, img:focus {
+.hovercolor:hover, .hovercolor:focus {
 	background-color: #00caf5;
+}
+
+.hovercolor:active {
+	background-color: #ffef49;
 }
 
 p {
@@ -159,6 +163,16 @@ li {
   padding-top:2rem;
 }
 
+.navigation-selected {
+	border-bottom: 3px solid #00caf5;
+	color: #00caf5;
+}
+
+.navigation-textselected {
+	/*border-bottom: 3px solid #00caf5;*/
+	color: #00caf5;
+}
+
 .navigation-link:hover, .navigation-link:focus {
   background-color: white;
 /*  border-top:none;
@@ -246,4 +260,8 @@ li
 	border-left: 0px;
 	border-right: 0px;
 	border-bottom: 2px solid #00caf5;
+}
+
+.price {
+	color: #00caf5;
 }
