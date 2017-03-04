@@ -55,6 +55,12 @@
   width:66%;
 }
 
+@media (min-width: 40em) {
+  .navigation {
+    position: fixed;
+  }
+}
+
 @media (max-width: 40em) {
 
   /*http://pxtoem.com/*/
@@ -63,8 +69,13 @@
     width: 100%;
   }
 
-  .navigation {
-    width: 100%;
+  .main {
+    margin-top: 10em;
+    margin-left: 0%;
+  }
+
+  .navigation{
+    /*display:flex;*/
   }
 }
 
@@ -122,7 +133,9 @@
 
 
 .navigation {
-  position:fixed;
+  /*display: inline-block;*/
+  /*position:fixed;*/
+
   /*top: 15rem;*/
   text-align: center;
   padding-right: 2em;
@@ -132,8 +145,8 @@
 }
 
 .main {
-  height:1280px;
+  /*height:1080px;*/
   text-align: center;
-  padding-left: 30%;
+  margin-left: 30%;
 
 }

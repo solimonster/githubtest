@@ -41,7 +41,7 @@ img {
 	/*padding-bottom: 1rem;*/
 }
 
-.hovercolor:hover, .hovercolor:focus {
+.hovercolor:hover, a:focus .hovercolor {
 	background-color: #00caf5;
 }
 
