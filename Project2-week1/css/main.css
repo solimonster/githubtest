@@ -43,6 +43,11 @@ a:hover, a:focus {
 	/*border-bottom: 3px solid #00caf5;*/
 }
 
+/*a:focus .navigation-link {
+	color: #00caf5;
+	border-bottom: 3px solid #00caf5;
+}*/
+
 /*a:hover, a:focus {
 	color: #00caf5;
 }*/
@@ -52,6 +57,12 @@ img {
 	text-align: center;
 	/*padding-bottom: 1rem;*/
 }
+
+.imghover:hover img, .imghover:focus img {
+	opacity: .7;
+}
+
+/*image hover filter tutorial: https://www.w3schools.com/css/css_image_transparency.asp*/
 
 .hovercolor:hover, a:focus .hovercolor {
 	background-color: #00caf5;
@@ -175,9 +186,16 @@ li {
   padding-top:2rem;
 }
 
+.navigation-title {
+  text-decoration: none;
+  /*border-bottom: 3px solid #000000;*/
+  /*padding-top:2rem;*/
+}
+
 .navigation-selected a {
 	border-bottom: 3px solid #00caf5;
 	color: #00caf5;
+	/*background-color: #ffef49;*/
 }
 
 .navigation-textselected {
