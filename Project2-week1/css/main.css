@@ -24,21 +24,52 @@ code {
 	max-width:80%;
 }
 
-a {
+.navigation-link a {
 	font-weight:bold;
 	/*padding-top: 5rem;*/
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 3px solid #000000;
+}
+
+a {
+	font-weight: bold;
 	text-decoration: none;
 	color: #000000;
 }
 
 a:hover, a:focus {
 	color: #00caf5;
+	/*border-bottom: 3px solid #00caf5;*/
 }
+
+/*a:focus .navigation-link {
+	color: #00caf5;
+	border-bottom: 3px solid #00caf5;
+}*/
+
+/*a:hover, a:focus {
+	color: #00caf5;
+}*/
 
 img {
 	max-width: 100%;
 	text-align: center;
 	/*padding-bottom: 1rem;*/
+}
+
+.imghover:hover img, .imghover:focus img {
+	opacity: .7;
+}
+
+/*image hover filter tutorial: https://www.w3schools.com/css/css_image_transparency.asp*/
+
+.hovercolor:hover, a:focus .hovercolor {
+	background-color: #00caf5;
+}
+
+.hovercolor:active {
+	background-color: #ffef49;
 }
 
 p {
@@ -77,17 +108,17 @@ li {
 	padding: .5rem;
 	text-decoration: none;
 	color: #000000;
-	border: 3px solid #000000;
+	border-bottom: 3px solid #000000;
 }
 .button-class:hover, .button-class:focus {
 	background-color: white;
 	color: #00caf5;
-	border: 3px solid #00caf5;
+	border-bottom: 3px solid #00caf5;
 }
 
 .button-class:active {
 	color: #00caf5;
-	border: 3px solid #00caf5;
+	border-bottom: 3px solid #00caf5;
 	background-color: #FFEF49;
 }
 
@@ -151,14 +182,35 @@ li {
 
 .navigation-link {
   text-decoration: none;
-  border-bottom: 2px solid #000000;
-  	padding-top:2rem;
+  /*border-bottom: 3px solid #000000;*/
+  padding-top:2rem;
 }
 
-.navigation-link:hover, .navigation-link:focus {
-  background-color: white;
-  border-bottom: 2px solid #00caf5;
-	padding-top:2rem;
+.navigation-title {
+  text-decoration: none;
+  /*border-bottom: 3px solid #000000;*/
+  /*padding-top:2rem;*/
+}
+
+.navigation-selected a {
+	border-bottom: 3px solid #00caf5;
+	color: #00caf5;
+	/*background-color: #ffef49;*/
+}
+
+.navigation-textselected {
+	/*border-bottom: 3px solid #00caf5;*/
+	color: #00caf5;
+}
+
+.navigation-link:hover a, .navigation-link:focus a {
+  /*background-color: white;*/
+/*  border-top:none;
+  border-left:none;
+  border-right:none;*/
+  border-bottom: 3px solid #00caf5;
+  padding-top:2rem;
+  color: #00caf5;
 }
 
 .navigation-space {
@@ -200,7 +252,9 @@ li {
 	padding: 2em;
 	/*padding: 500px;*/
 }
-
+.left-align {
+	text-align:left;
+}
 .content-50
 {
 	border: 3px solid #000000;
@@ -221,8 +275,28 @@ li
 .line-breaker
 {
 	border-top: 1px solid #333;
-}
+}	
 
 .spacer {
-	height: 3em;
+	height: 5em;
+}
+
+.navspacer {
+	height: 7em;
+}
+
+.seanspacer {
+	height: 2em;
+}
+
+.input {
+	padding: .5rem;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid #00caf5;
+}
+
+.price {
+	color: #00caf5;
 }
