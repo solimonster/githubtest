@@ -56,30 +56,32 @@
 .grid-col-2of3 {
   width:66%;
 }
-@media (max-height: 750px) {
+@media (max-height: 800px) {
   .navigation-bottom-cart {
     position: fixed;
-    top: 540px;
+    top: 580px;
   }
 
   .navigation-bottom-account {
     position: fixed;
-    top: 492px;
+    top: 532px;
   }
 
 }
-@media (min-height: 750px) {
+@media (min-height: 800px) {
   .navigation-bottom-cart {
     position:fixed;
     bottom: 10em;
-    width: 25%;
+    text-align: center;
+    /*width: 25%;*/
     /*text-align: center;*/
   }
 
   .navigation-bottom-account {
     position: fixed;
     bottom: 13em;
-    width: 25%;
+    text-align: center;
+    /*width: 25%;*/
     /*text-align: center;*/
   }
 }
@@ -90,15 +92,17 @@
   }
 
   .navigation-bottom-cart {
-    /*position:fixed;
-    bottom: 10em;*/
+    position:fixed;
+    bottom: 10em;
     width: 25%;
+    text-align: center;
   }
 
   .navigation-bottom-account {
-    /*position:fixed;
-    bottom: 13em;*/
+    position:fixed;
+    bottom: 13em;
     width: 25%;
+    text-align: center;
   }
 
   .main {
@@ -114,8 +118,21 @@
     width: 100%;
   }
 
+  .navigation-bottom-account, .navigation-bottom-cart {
+    width: 83%;
+    text-align: left;
+  }
+
+  .navigation-bottom-account {
+    bottom:5em;
+  }
+
+  .navigation-bottom-cart {
+    bottom:2em;
+  }
+
   .main {
-    margin-top: 10em;
+    margin-top: 7em;
     margin-left: 0%;
 
   }
@@ -123,6 +140,8 @@
   .navigation{
     /*display:flex;*/
   }
+
+
 }
 
 .box {
@@ -184,12 +203,10 @@
 }
 
 .navigation-bottom-account {
-  text-align: center;
   /*padding-right: 2em;*/
 
 }
 .navigation-bottom-cart {
-  text-align: center;
   /*padding-right: 2em;*/
 }
 
@@ -203,5 +220,9 @@
 }*/
 
 .lastrow {
-  padding-bottom: 5em;
+  padding-bottom: 10em;
+}
+
+.cartend {
+  padding-bottom: 20em;
 }
