@@ -24,16 +24,28 @@ code {
 	max-width:80%;
 }
 
-a {
+.navigation-link a {
 	font-weight:bold;
 	/*padding-top: 5rem;*/
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 3px solid #000000;
+}
+
+a {
+	font-weight: bold;
 	text-decoration: none;
 	color: #000000;
 }
 
 a:hover, a:focus {
 	color: #00caf5;
+	/*border-bottom: 3px solid #00caf5;*/
 }
+
+/*a:hover, a:focus {
+	color: #00caf5;
+}*/
 
 img {
 	max-width: 100%;
@@ -159,11 +171,11 @@ li {
 
 .navigation-link {
   text-decoration: none;
-  border-bottom: 3px solid #000000;
+  /*border-bottom: 3px solid #000000;*/
   padding-top:2rem;
 }
 
-.navigation-selected {
+.navigation-selected a {
 	border-bottom: 3px solid #00caf5;
 	color: #00caf5;
 }
@@ -173,13 +185,14 @@ li {
 	color: #00caf5;
 }
 
-.navigation-link:hover, .navigation-link:focus {
-  background-color: white;
+.navigation-link:hover a, .navigation-link:focus a {
+  /*background-color: white;*/
 /*  border-top:none;
   border-left:none;
   border-right:none;*/
   border-bottom: 3px solid #00caf5;
-	padding-top:2rem;
+  padding-top:2rem;
+  color: #00caf5;
 }
 
 .navigation-space {
@@ -248,6 +261,10 @@ li
 
 .spacer {
 	height: 5em;
+}
+
+.navspacer {
+	height: 7em;
 }
 
 .seanspacer {
