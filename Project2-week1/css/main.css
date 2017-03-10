@@ -391,3 +391,13 @@ li
     display: flex;
   }
 }
+
+.footer {
+	height: 3em;
+	background-color: black;
+	text-align: center;
+}
+
+.footer a {
+	color:white;
+}
