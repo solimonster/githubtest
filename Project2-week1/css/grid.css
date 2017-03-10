@@ -61,6 +61,12 @@
 .grid-col-2of3 {
   width:66%;
 }
+
+.grid-col-2of3vote {
+  width: 66%;
+  padding-bottom: 2em;
+}
+}
 @media (max-height: 800px) {
   .navigation-bottom-cart {
     position: fixed;
@@ -113,13 +119,18 @@
   .main {
       margin-left: 25%;
   }
+
+  .captiontext {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
 }
 
 @media (max-width: 50em) {
 
   /*http://pxtoem.com/*/
 
-  .grid-col-1of4, .grid-col-1of3, .grid-col-1of3vote, .grid-col-1of2, .grid-col-3of4,.grid-col-1of8, .grid-col-1of5, .grid-col-3of4 {
+  .grid-col-1of4, .grid-col-1of3, .grid-col-1of3vote, .grid-col-2of3, .grid-col-1of2, .grid-col-3of4,.grid-col-1of8, .grid-col-1of5, .grid-col-3of4 {
     width: 100%;
   }
 
