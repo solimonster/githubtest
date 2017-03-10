@@ -67,9 +67,9 @@
 }
 
 .grid-col-2of3vote {
-  width: 66%;
-  padding-bottom: 2em;
+  width:66%;
 }
+
 }
 @media (max-height: 800px) {
   .navigation-bottom-cart {
@@ -137,13 +137,23 @@
     text-align: left;
     /*padding-right: .5em;*/
   }
+
+  .ranking {
+    text-align: left;
+    padding-left: 2em;
+  }
+  /*.grid-col-2of3vote {
+
+    padding-bottom: 2em;
+    text-align: left;
+  }*/
 }
 
 @media (max-width: 50em) {
 
   /*http://pxtoem.com/*/
 
-  .grid-col-1of4, .grid-col-1of3, .grid-col-1of3vote, .grid-col-2of3, .grid-col-1of2, .grid-col-3of4,.grid-col-1of8, .grid-col-1of5, .grid-col-3of4 {
+  .grid-col-1of4, .grid-col-1of3, .grid-col-1of3vote, .grid-col-2of3, .grid-col-2of3vote, .grid-col-1of2, .grid-col-3of4,.grid-col-1of8, .grid-col-1of5, .grid-col-3of4 {
     width: 100%;
   }
 
@@ -179,6 +189,10 @@
     /*padding-right: 1em;*/
   }
 
+  .ranking {
+    text-align: center;
+    padding-top:3em;
+  }
 
 }
 
