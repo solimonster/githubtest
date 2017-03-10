@@ -261,10 +261,14 @@ li {
 .vote:hover a, .vote:focus a {
 	/*color:white;*/
 	border-bottom: 3px solid white;
-
 }
 
 .vote-link:hover, .vote-link:focus {
+	color:white;
+}
+
+.voted {
+	background-color: #00caf5;
 	color:white;
 }
 
