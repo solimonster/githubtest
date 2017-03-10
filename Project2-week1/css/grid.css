@@ -142,6 +142,11 @@
     text-align: left;
     padding-left: 2em;
   }
+
+  .contactpad {
+    padding: 1em;
+  }
+
   /*.grid-col-2of3vote {
 
     padding-bottom: 2em;
