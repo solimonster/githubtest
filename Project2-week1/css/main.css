@@ -393,14 +393,13 @@ li
 }
 
 .footer {
-	height: 1.5em;
-	background-color: #eeeeee;
-	text-align: center;
+
 }
 
 .footer a {
 	/*padding-top: .5em;*/
 	padding-left: .5em;
 	padding-right: .5em;
+	padding-bottom: 3em;
 }
 
