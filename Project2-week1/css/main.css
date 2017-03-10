@@ -33,6 +33,10 @@ code {
 	border-bottom: 3px solid #000000;
 }
 
+.vote-box a {
+	border-bottom: 3px solid #000000;
+}
+
 /*.vote a {
 
 	border-bottom: 3px solid white;
@@ -223,6 +227,10 @@ li {
 	
 	color: white;
 	background-color: #00caf5;
+}
+
+.vote-box:hover a {
+	color: white;
 }
 
 .vote:hover a, .vote:focus a {
