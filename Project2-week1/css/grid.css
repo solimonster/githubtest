@@ -36,6 +36,11 @@
   min-height: 320px;
 }
 
+.grid-col-1of3vote {
+  width: 33%;
+  padding-bottom: 2em;
+}
+
 .grid-col-1of6 {
   width: 16%;
 }
@@ -114,7 +119,7 @@
 
   /*http://pxtoem.com/*/
 
-  .grid-col-1of4, .grid-col-1of3, .grid-col-1of2, .grid-col-3of4,.grid-col-1of8, .grid-col-1of5, .grid-col-3of4 {
+  .grid-col-1of4, .grid-col-1of3, .grid-col-1of3vote, .grid-col-1of2, .grid-col-3of4,.grid-col-1of8, .grid-col-1of5, .grid-col-3of4 {
     width: 100%;
   }
 

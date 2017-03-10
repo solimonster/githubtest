@@ -33,6 +33,11 @@ code {
 	border-bottom: 3px solid #000000;
 }
 
+/*.vote a {
+
+	border-bottom: 3px solid white;
+}*/
+
 a {
 	font-weight: bold;
 	text-decoration: none;
@@ -214,6 +219,22 @@ li {
   color: #00caf5;
 }
 
+.vote-box:hover, .vote-box:focus {
+	
+	color: white;
+	background-color: #00caf5;
+}
+
+.vote:hover a, .vote:focus a {
+	/*color:white;*/
+	border-bottom: 3px solid white;
+
+}
+
+.vote-link:hover, .vote-link:focus {
+	color:white;
+}
+
 .navigation-space {
 	height:4rem;
 }
@@ -301,3 +322,11 @@ li
 .price {
 	color: #00caf5;
 }
+
+.title-selected {
+	color: #00caf5;
+}
+
+/*.votetext {
+	color: white;
+}*/
