@@ -384,22 +384,29 @@ li
 	max-width: 50%;
 }
 
-
+.page-content{
+	padding-bottom: 2em;
+}
 
 @media (max-width: 40em) {
   .intable{
     display: flex;
   }
+
+  .content-50{
+  	width: 90%;
+  }
 }
 
 .footer {
-
+	height: 1.5em;
+	background-color: #eeeeee;
+	text-align: center;
 }
 
 .footer a {
 	/*padding-top: .5em;*/
 	padding-left: .5em;
 	padding-right: .5em;
-	padding-bottom: 3em;
 }
 
