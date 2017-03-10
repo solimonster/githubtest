@@ -86,7 +86,7 @@
   }
 }
 
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .navigation {
     position: fixed;
   }
@@ -110,7 +110,7 @@
   }
 }
 
-@media (max-width: 40em) {
+@media (max-width: 50em) {
 
   /*http://pxtoem.com/*/
 
@@ -124,11 +124,11 @@
   }
 
   .navigation-bottom-account {
-    bottom:5em;
+    bottom:5.2em;
   }
 
   .navigation-bottom-cart {
-    bottom:2em;
+    bottom:2.2em;
   }
 
   .main {
@@ -213,6 +213,7 @@
 .main {
   /*height:1080px;*/
   text-align: center;
+  /*background-color: #eeeeee;*/
 }
 
 /*.products {
