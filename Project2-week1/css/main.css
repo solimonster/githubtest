@@ -2,6 +2,7 @@ body {
 	font-family: "Calibre", Verdana, sans-serif;
 	/*referred to Lecture 2 Completed Code*/
 	padding: 2em;
+	margin: 2em;
 }
 
 /*line code borrowed from template sample main.css code*/
@@ -24,21 +25,61 @@ code {
 	max-width:80%;
 }
 
-a {
+.navigation-link a {
 	font-weight:bold;
 	/*padding-top: 5rem;*/
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 3px solid #000000;
+}
+
+.vote-box a {
+	border-bottom: 3px solid #000000;
+}
+
+/*.vote a {
+
+	border-bottom: 3px solid white;
+}*/
+
+a {
+	font-weight: bold;
 	text-decoration: none;
 	color: #000000;
 }
 
 a:hover, a:focus {
 	color: #00caf5;
+	/*border-bottom: 3px solid #00caf5;*/
 }
+
+/*a:focus .navigation-link {
+	color: #00caf5;
+	border-bottom: 3px solid #00caf5;
+}*/
+
+/*a:hover, a:focus {
+	color: #00caf5;
+}*/
 
 img {
 	max-width: 100%;
 	text-align: center;
 	/*padding-bottom: 1rem;*/
+}
+
+.imghover:hover img, .imghover:focus img {
+	opacity: .7;
+}
+
+/*image hover filter tutorial: https://www.w3schools.com/css/css_image_transparency.asp*/
+
+.hovercolor:hover, a:focus .hovercolor {
+	background-color: #00caf5;
+}
+
+.hovercolor:active {
+	background-color: #ffef49;
 }
 
 p {
@@ -53,18 +94,40 @@ li {
 	padding-bottom: .5rem;
 }
 
+.form {
+	padding-bottom: 3em;
+}
 .form-input {
 	padding: .5rem;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
 	border-bottom: 2px solid #00caf5;
+	font-family: "Calibre", Verdana, sans-serif;
+}
+
+.form-input a {
+	border-bottom: 3px solid #000000;
 }
 
 /*learned from http://www.w3schools.com/css/css_form.asp*/
 
-.form-label {
-	padding-right: .5rem;
+.labelstuff {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-right: 1em;
+	padding-left: 1em;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid white;
+	font-family: "Calibre", Verdana, sans-serif;
+}
+
+
+
+.double {
+	color: white;
 }
 
 /*learned from http://www.w3schools.com/css/css_form.asp*/
@@ -74,7 +137,10 @@ li {
 }
 
 .button-class {
-	padding: .5rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	padding-left: .8rem;
+	padding-right: .8rem;
 	text-decoration: none;
 	color: #000000;
 	border: 3px solid #000000;
@@ -151,14 +217,59 @@ li {
 
 .navigation-link {
   text-decoration: none;
-  border-bottom: 2px solid #000000;
-  	padding-top:2rem;
+  /*border-bottom: 3px solid #000000;*/
+  padding-top:2rem;
 }
 
-.navigation-link:hover, .navigation-link:focus {
-  background-color: white;
-  border-bottom: 2px solid #00caf5;
-	padding-top:2rem;
+.navigation-title {
+  text-decoration: none;
+  /*border-bottom: 3px solid #000000;*/
+  /*padding-top:2rem;*/
+}
+
+.navigation-selected a {
+	border-bottom: 3px solid #00caf5;
+	color: #00caf5;
+	/*background-color: #ffef49;*/
+}
+
+.navigation-textselected {
+	/*border-bottom: 3px solid #00caf5;*/
+	color: #00caf5;
+}
+
+.navigation-link:hover a, .navigation-link:focus a {
+  /*background-color: white;*/
+/*  border-top:none;
+  border-left:none;
+  border-right:none;*/
+  border-bottom: 3px solid #00caf5;
+  padding-top:2rem;
+  color: #00caf5;
+}
+
+.vote-box:hover, .vote-box:focus {
+	
+	color: white;
+	background-color: #00caf5;
+}
+
+.vote-box:hover a {
+	color: white;
+}
+
+.vote:hover a, .vote:focus a {
+	/*color:white;*/
+	border-bottom: 3px solid white;
+}
+
+.vote-link:hover, .vote-link:focus {
+	color:white;
+}
+
+.voted {
+	background-color: #00caf5;
+	color:white;
 }
 
 .navigation-space {
@@ -200,7 +311,9 @@ li {
 	padding: 2em;
 	/*padding: 500px;*/
 }
-
+.left-align {
+	text-align:left;
+}
 .content-50
 {
 	border: 3px solid #000000;
@@ -221,10 +334,10 @@ li
 .line-breaker
 {
 	border-top: 1px solid #333;
-}
+}	
 
 .spacer {
-	height: 3em;
+	height: 5em;
 }
 
 @media (max-width: 40em) {
@@ -232,3 +345,68 @@ li
     display: flex;
   }
 }
+
+.navspacer {
+	height: 7em;
+}
+
+.seanspacer {
+	height: 2em;
+}
+
+.input {
+	padding: .5rem;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid #00caf5;
+}
+
+.price {
+	color: #00caf5;
+}
+
+.title-selected {
+	color: #00caf5;
+}
+
+/*.instructions {
+	padding-left: 10em;
+	padding right: 10em;
+	text-align: left;
+}
+*/
+/*.votetext {
+	color: white;
+}*/
+
+.kissies {
+	max-width: 50%;
+}
+
+.page-content{
+	padding-bottom: 2em;
+}
+
+@media (max-width: 40em) {
+  .intable{
+    display: flex;
+  }
+
+  .content-50{
+  	width: 90%;
+  }
+}
+
+.footer {
+	height: 1.5em;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+.footer a {
+	/*padding-top: .5em;*/
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
