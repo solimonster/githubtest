@@ -94,18 +94,40 @@ li {
 	padding-bottom: .5rem;
 }
 
+.form {
+	padding-bottom: 3em;
+}
 .form-input {
 	padding: .5rem;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
 	border-bottom: 2px solid #00caf5;
+	font-family: "Calibre", Verdana, sans-serif;
+}
+
+.form-input a {
+	border-bottom: 3px solid #000000;
 }
 
 /*learned from http://www.w3schools.com/css/css_form.asp*/
 
-.form-label {
-	padding-right: .5rem;
+.labelstuff {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-right: 1em;
+	padding-left: 1em;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid white;
+	font-family: "Calibre", Verdana, sans-serif;
+}
+
+
+
+.double {
+	color: white;
 }
 
 /*learned from http://www.w3schools.com/css/css_form.asp*/
@@ -115,20 +137,23 @@ li {
 }
 
 .button-class {
-	padding: .5rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	padding-left: .8rem;
+	padding-right: .8rem;
 	text-decoration: none;
 	color: #000000;
-	border-bottom: 3px solid #000000;
+	border: 3px solid #000000;
 }
 .button-class:hover, .button-class:focus {
 	background-color: white;
 	color: #00caf5;
-	border-bottom: 3px solid #00caf5;
+	border: 3px solid #00caf5;
 }
 
 .button-class:active {
 	color: #00caf5;
-	border-bottom: 3px solid #00caf5;
+	border: 3px solid #00caf5;
 	background-color: #FFEF49;
 }
 
@@ -344,3 +369,8 @@ li
 /*.votetext {
 	color: white;
 }*/
+
+.kissies {
+	max-width: 50%;
+}
+
