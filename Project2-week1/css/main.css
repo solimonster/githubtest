@@ -2,6 +2,7 @@ body {
 	font-family: "Calibre", Verdana, sans-serif;
 	/*referred to Lecture 2 Completed Code*/
 	padding: 2em;
+	margin: 2em;
 }
 
 /*line code borrowed from template sample main.css code*/
@@ -31,6 +32,15 @@ code {
 	color: #000000;
 	border-bottom: 3px solid #000000;
 }
+
+.vote-box a {
+	border-bottom: 3px solid #000000;
+}
+
+/*.vote a {
+
+	border-bottom: 3px solid white;
+}*/
 
 a {
 	font-weight: bold;
@@ -213,6 +223,26 @@ li {
   color: #00caf5;
 }
 
+.vote-box:hover, .vote-box:focus {
+	
+	color: white;
+	background-color: #00caf5;
+}
+
+.vote-box:hover a {
+	color: white;
+}
+
+.vote:hover a, .vote:focus a {
+	/*color:white;*/
+	border-bottom: 3px solid white;
+
+}
+
+.vote-link:hover, .vote-link:focus {
+	color:white;
+}
+
 .navigation-space {
 	height:4rem;
 }
@@ -247,7 +277,7 @@ li {
 
 .content-full{
 	/*background-color: #EEEEEE;*/
-	border: 3px solid #000000;
+	/*border: 3px solid #000000;*/
 	text-align: left;
 	padding: 2em;
 	/*padding: 500px;*/
@@ -257,7 +287,7 @@ li {
 }
 .content-50
 {
-	border: 3px solid #000000;
+	/*border: 3px solid #000000;*/
 	text-align: left;
 	margin-top: 1em;
 	margin-left:0.3em;
@@ -300,3 +330,17 @@ li
 .price {
 	color: #00caf5;
 }
+
+.title-selected {
+	color: #00caf5;
+}
+
+/*.instructions {
+	padding-left: 10em;
+	padding right: 10em;
+	text-align: left;
+}
+*/
+/*.votetext {
+	color: white;
+}*/

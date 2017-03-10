@@ -36,6 +36,11 @@
   min-height: 320px;
 }
 
+.grid-col-1of3vote {
+  width: 33%;
+  padding-bottom: 2em;
+}
+
 .grid-col-1of6 {
   width: 16%;
 }
@@ -56,66 +61,94 @@
 .grid-col-2of3 {
   width:66%;
 }
-@media (max-height: 750px) {
+
+.grid-col-2of3vote {
+  width: 66%;
+  padding-bottom: 2em;
+}
+}
+@media (max-height: 800px) {
   .navigation-bottom-cart {
     position: fixed;
-    top: 540px;
+    top: 580px;
   }
 
   .navigation-bottom-account {
     position: fixed;
-    top: 492px;
+    top: 532px;
   }
 
 }
-@media (min-height: 750px) {
+@media (min-height: 800px) {
   .navigation-bottom-cart {
     position:fixed;
     bottom: 10em;
-    width: 25%;
+    text-align: center;
+    /*width: 25%;*/
     /*text-align: center;*/
   }
 
   .navigation-bottom-account {
     position: fixed;
     bottom: 13em;
-    width: 25%;
+    text-align: center;
+    /*width: 25%;*/
     /*text-align: center;*/
   }
 }
 
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .navigation {
     position: fixed;
   }
 
   .navigation-bottom-cart {
-    /*position:fixed;
-    bottom: 10em;*/
+    position:fixed;
+    bottom: 10em;
     width: 25%;
+    text-align: center;
   }
 
   .navigation-bottom-account {
-    /*position:fixed;
-    bottom: 13em;*/
+    position:fixed;
+    bottom: 13em;
     width: 25%;
+    text-align: center;
   }
 
   .main {
       margin-left: 25%;
   }
+
+  .captiontext {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
 }
 
-@media (max-width: 40em) {
+@media (max-width: 50em) {
 
   /*http://pxtoem.com/*/
 
-  .grid-col-1of4, .grid-col-1of3, .grid-col-1of2, .grid-col-3of4,.grid-col-1of8, .grid-col-1of5, .grid-col-3of4 {
+  .grid-col-1of4, .grid-col-1of3, .grid-col-1of3vote, .grid-col-2of3, .grid-col-1of2, .grid-col-3of4,.grid-col-1of8, .grid-col-1of5, .grid-col-3of4 {
     width: 100%;
   }
 
+  .navigation-bottom-account, .navigation-bottom-cart {
+    width: 83%;
+    text-align: left;
+  }
+
+  .navigation-bottom-account {
+    bottom:5.2em;
+  }
+
+  .navigation-bottom-cart {
+    bottom:2.2em;
+  }
+
   .main {
-    margin-top: 10em;
+    margin-top: 7em;
     margin-left: 0%;
 
   }
@@ -123,6 +156,8 @@
   .navigation{
     /*display:flex;*/
   }
+
+
 }
 
 .box {
@@ -184,18 +219,17 @@
 }
 
 .navigation-bottom-account {
-  text-align: center;
   /*padding-right: 2em;*/
 
 }
 .navigation-bottom-cart {
-  text-align: center;
   /*padding-right: 2em;*/
 }
 
 .main {
   /*height:1080px;*/
   text-align: center;
+  /*background-color: #eeeeee;*/
 }
 
 /*.products {
@@ -203,5 +237,9 @@
 }*/
 
 .lastrow {
-  padding-bottom: 5em;
+  padding-bottom: 10em;
+}
+
+.cartend {
+  padding-bottom: 20em;
 }
