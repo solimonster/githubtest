@@ -226,3 +226,9 @@ li
 .spacer {
 	height: 3em;
 }
+
+@media (max-width: 40em) {
+  .intable{
+    display: flex;
+  }
+}
