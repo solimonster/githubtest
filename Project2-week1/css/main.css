@@ -340,6 +340,12 @@ li
 	height: 5em;
 }
 
+@media (max-width: 40em) {
+  .intable{
+    display: flex;
+  }
+}
+
 .navspacer {
 	height: 7em;
 }
