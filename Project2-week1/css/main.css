@@ -175,6 +175,8 @@ li {
 	padding-left: 3em;
 	padding-right: 3em;
 }
+
+
 .product-price {
 	color: #00caf5;
 }
@@ -400,14 +402,16 @@ li
 }
 
 .footer {
-	height: 1.5em;
-	background-color: #eeeeee;
+	/*height: 1.5em;*/
+	/*background-color: #eeeeee;*/
 	text-align: center;
 }
 
 .footer a {
-	/*padding-top: .5em;*/
+	padding-bottom: 2em;
 	padding-left: .5em;
 	padding-right: .5em;
 }
+
+
 
