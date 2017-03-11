@@ -131,6 +131,12 @@
       margin-left: 25%;
   }
 
+  .mainleft{
+    margin-left: 10%;
+   text-align: left;
+
+  }
+
   .captiontext {
     padding-left: 10em;
     padding-right: 10em;
@@ -186,6 +192,11 @@
     margin-top: 7em;
     margin-left: 0%;
 
+  }
+
+  .mainleft {
+    margin-top: 7em;
+    margin-left: 0%;
   }
 
   .navigation{
@@ -279,6 +290,12 @@
   text-align: center;
   /*background-color: #eeeeee;*/
 }
+
+.mainleft {
+  border-bottom: 2px solid #000000;
+}
+
+
 
 /*.products {
   padding-bottom: 5em;
