@@ -306,7 +306,7 @@ li {
 
 .content-full{
 	/*background-color: #EEEEEE;*/
-	/*border: 3px solid #000000;*/
+	border: 3px solid #000000;
 	text-align: left;
 	padding: 2em;
 	/*padding: 500px;*/
@@ -316,7 +316,7 @@ li {
 }
 .content-50
 {
-	/*border: 3px solid #000000;*/
+	border: 3px solid #000000;
 	text-align: left;
 	margin-top: 1em;
 	margin-left:0.3em;
