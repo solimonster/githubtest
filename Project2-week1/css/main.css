@@ -309,6 +309,7 @@ li {
 	border: 3px solid #000000;
 	text-align: left;
 	padding: 2em;
+	margin-bottom: 2em;
 	/*padding: 500px;*/
 }
 .left-align {
